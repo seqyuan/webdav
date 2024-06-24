@@ -12,7 +12,7 @@ jobs:
     permissions:
       packages: write
     env:
-      IMAGE_NAME: rst_report
+      IMAGE_NAME: webdav
       #GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: "Build:checkout"
